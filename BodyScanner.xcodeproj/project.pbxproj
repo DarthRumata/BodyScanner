@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3A578DE168CFD79006BCDDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A578DD168CFD79006BCDDE /* UIKit.framework */; };
+		C3A578E0168CFD79006BCDDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A578DF168CFD79006BCDDE /* Foundation.framework */; };
+		C3A578E2168CFD79006BCDDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A578E1168CFD79006BCDDE /* CoreGraphics.framework */; };
+		C3A578E8168CFD79006BCDDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3A578E6168CFD79006BCDDE /* InfoPlist.strings */; };
+		C3A578EA168CFD79006BCDDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A578E9168CFD79006BCDDE /* main.m */; };
+		C3A578EE168CFD79006BCDDE /* NBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A578ED168CFD79006BCDDE /* NBTAppDelegate.m */; };
+		C3A578F0168CFD79006BCDDE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A578EF168CFD79006BCDDE /* Default.png */; };
+		C3A578F2168CFD79006BCDDE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A578F1168CFD79006BCDDE /* Default@2x.png */; };
+		C3A578F4168CFD79006BCDDE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A578F3168CFD79006BCDDE /* Default-568h@2x.png */; };
+		C3A578F7168CFD79006BCDDE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A578F5168CFD79006BCDDE /* MainStoryboard_iPhone.storyboard */; };
+		C3A578FA168CFD79006BCDDE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A578F8168CFD79006BCDDE /* MainStoryboard_iPad.storyboard */; };
+		C3A578FD168CFD79006BCDDE /* NBTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A578FC168CFD79006BCDDE /* NBTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3A578D9168CFD79006BCDDE /* BodyScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A578DD168CFD79006BCDDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3A578DF168CFD79006BCDDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3A578E1168CFD79006BCDDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3A578E5168CFD79006BCDDE /* BodyScanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BodyScanner-Info.plist"; sourceTree = "<group>"; };
+		C3A578E7168CFD79006BCDDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3A578E9168CFD79006BCDDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3A578EB168CFD79006BCDDE /* BodyScanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BodyScanner-Prefix.pch"; sourceTree = "<group>"; };
+		C3A578EC168CFD79006BCDDE /* NBTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBTAppDelegate.h; sourceTree = "<group>"; };
+		C3A578ED168CFD79006BCDDE /* NBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBTAppDelegate.m; sourceTree = "<group>"; };
+		C3A578EF168CFD79006BCDDE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3A578F1168CFD79006BCDDE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3A578F3168CFD79006BCDDE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3A578F6168CFD79006BCDDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C3A578F9168CFD79006BCDDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C3A578FB168CFD79006BCDDE /* NBTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBTViewController.h; sourceTree = "<group>"; };
+		C3A578FC168CFD79006BCDDE /* NBTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A578D6168CFD79006BCDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A578DE168CFD79006BCDDE /* UIKit.framework in Frameworks */,
+				C3A578E0168CFD79006BCDDE /* Foundation.framework in Frameworks */,
+				C3A578E2168CFD79006BCDDE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3A578CE168CFD79006BCDDE = {
+			isa = PBXGroup;
+			children = (
+				C3A578E3168CFD79006BCDDE /* BodyScanner */,
+				C3A578DC168CFD79006BCDDE /* Frameworks */,
+				C3A578DA168CFD79006BCDDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3A578DA168CFD79006BCDDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A578D9168CFD79006BCDDE /* BodyScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3A578DC168CFD79006BCDDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3A578DD168CFD79006BCDDE /* UIKit.framework */,
+				C3A578DF168CFD79006BCDDE /* Foundation.framework */,
+				C3A578E1168CFD79006BCDDE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3A578E3168CFD79006BCDDE /* BodyScanner */ = {
+			isa = PBXGroup;
+			children = (
+				C3A578EC168CFD79006BCDDE /* NBTAppDelegate.h */,
+				C3A578ED168CFD79006BCDDE /* NBTAppDelegate.m */,
+				C3A578F5168CFD79006BCDDE /* MainStoryboard_iPhone.storyboard */,
+				C3A578F8168CFD79006BCDDE /* MainStoryboard_iPad.storyboard */,
+				C3A578FB168CFD79006BCDDE /* NBTViewController.h */,
+				C3A578FC168CFD79006BCDDE /* NBTViewController.m */,
+				C3A578E4168CFD79006BCDDE /* Supporting Files */,
+			);
+			path = BodyScanner;
+			sourceTree = "<group>";
+		};
+		C3A578E4168CFD79006BCDDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3A578E5168CFD79006BCDDE /* BodyScanner-Info.plist */,
+				C3A578E6168CFD79006BCDDE /* InfoPlist.strings */,
+				C3A578E9168CFD79006BCDDE /* main.m */,
+				C3A578EB168CFD79006BCDDE /* BodyScanner-Prefix.pch */,
+				C3A578EF168CFD79006BCDDE /* Default.png */,
+				C3A578F1168CFD79006BCDDE /* Default@2x.png */,
+				C3A578F3168CFD79006BCDDE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A578D8168CFD79006BCDDE /* BodyScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A57900168CFD79006BCDDE /* Build configuration list for PBXNativeTarget "BodyScanner" */;
+			buildPhases = (
+				C3A578D5168CFD79006BCDDE /* Sources */,
+				C3A578D6168CFD79006BCDDE /* Frameworks */,
+				C3A578D7168CFD79006BCDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodyScanner;
+			productName = BodyScanner;
+			productReference = C3A578D9168CFD79006BCDDE /* BodyScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3A578D0168CFD79006BCDDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NBT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Администратор";
+			};
+			buildConfigurationList = C3A578D3168CFD79006BCDDE /* Build configuration list for PBXProject "BodyScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3A578CE168CFD79006BCDDE;
+			productRefGroup = C3A578DA168CFD79006BCDDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A578D8168CFD79006BCDDE /* BodyScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A578D7168CFD79006BCDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A578E8168CFD79006BCDDE /* InfoPlist.strings in Resources */,
+				C3A578F0168CFD79006BCDDE /* Default.png in Resources */,
+				C3A578F2168CFD79006BCDDE /* Default@2x.png in Resources */,
+				C3A578F4168CFD79006BCDDE /* Default-568h@2x.png in Resources */,
+				C3A578F7168CFD79006BCDDE /* MainStoryboard_iPhone.storyboard in Resources */,
+				C3A578FA168CFD79006BCDDE /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3A578D5168CFD79006BCDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A578EA168CFD79006BCDDE /* main.m in Sources */,
+				C3A578EE168CFD79006BCDDE /* NBTAppDelegate.m in Sources */,
+				C3A578FD168CFD79006BCDDE /* NBTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3A578E6168CFD79006BCDDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A578E7168CFD79006BCDDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3A578F5168CFD79006BCDDE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A578F6168CFD79006BCDDE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C3A578F8168CFD79006BCDDE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A578F9168CFD79006BCDDE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3A578FE168CFD79006BCDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3A578FF168CFD79006BCDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3A57901168CFD79006BCDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BodyScanner/BodyScanner-Prefix.pch";
+				INFOPLIST_FILE = "BodyScanner/BodyScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3A57902168CFD79006BCDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BodyScanner/BodyScanner-Prefix.pch";
+				INFOPLIST_FILE = "BodyScanner/BodyScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3A578D3168CFD79006BCDDE /* Build configuration list for PBXProject "BodyScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A578FE168CFD79006BCDDE /* Debug */,
+				C3A578FF168CFD79006BCDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A57900168CFD79006BCDDE /* Build configuration list for PBXNativeTarget "BodyScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A57901168CFD79006BCDDE /* Debug */,
+				C3A57902168CFD79006BCDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3A578D0168CFD79006BCDDE /* Project object */;
+}
