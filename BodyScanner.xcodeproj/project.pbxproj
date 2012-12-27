@@ -307,6 +307,7 @@
 				C3A57902168CFD79006BCDDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
